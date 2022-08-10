@@ -29,10 +29,11 @@ class Program
 
 
         //Lambda Expression
-        pMgr.ShowProcessList(p =>
-        
-            p.WorkingSet64 >= 100 * 1024 * 1024
-        );
+        pMgr.ShowProcessList(p => p.WorkingSet64 >= 100 * 1024 * 1024);
+
+        pMgr.ShowProcessList(p => true);
+
+        pMgr.ShowProcessList(p => p.ProcessName.StartsWith("a"));
 
     }
 
