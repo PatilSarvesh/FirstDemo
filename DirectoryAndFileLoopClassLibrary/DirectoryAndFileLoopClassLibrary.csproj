@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DirectoryFinderInDriveClassLibrary\DirectoryFinderInDriveClassLibrary.csproj" />
+    <ProjectReference Include="..\DrivesFinderClassLibrary\DrivesFinderClassLibrary.csproj" />
+    <ProjectReference Include="..\FIleFinderInDriverClassLibrary\FIleFinderInDriverClassLibrary.csproj" />
+  </ItemGroup>
+
+</Project>
