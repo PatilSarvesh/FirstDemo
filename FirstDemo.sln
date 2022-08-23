@@ -75,15 +75,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTConsoleApp1", "MTConsoleA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SearchEngine", "SearchEngine", "{25C746C4-73A2-4F4F-BA47-353DCBA1516D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchEngineFiles", "SearchEngineFiles\SearchEngineFiles.csproj", "{29F6939B-2BC0-4EE8-BE41-F06A523F6975}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchEngineFiles", "SearchEngineFiles\SearchEngineFiles.csproj", "{29F6939B-2BC0-4EE8-BE41-F06A523F6975}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrivesFinderClassLibrary", "DrivesFinderClassLibrary\DrivesFinderClassLibrary.csproj", "{77A386FD-87D1-450E-9B40-4B7EE662CD4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrivesFinderClassLibrary", "DrivesFinderClassLibrary\DrivesFinderClassLibrary.csproj", "{77A386FD-87D1-450E-9B40-4B7EE662CD4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIleFinderInDriverClassLibrary", "FIleFinderInDriverClassLibrary\FIleFinderInDriverClassLibrary.csproj", "{4D47AC95-4C57-442D-A320-29871BE5C565}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIleFinderInDriverClassLibrary", "FIleFinderInDriverClassLibrary\FIleFinderInDriverClassLibrary.csproj", "{4D47AC95-4C57-442D-A320-29871BE5C565}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryFinderInDriveClassLibrary", "DirectoryFinderInDriveClassLibrary\DirectoryFinderInDriveClassLibrary.csproj", "{4F666CBB-4DBC-42A6-BB0D-2055DAE82B94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectoryFinderInDriveClassLibrary", "DirectoryFinderInDriveClassLibrary\DirectoryFinderInDriveClassLibrary.csproj", "{4F666CBB-4DBC-42A6-BB0D-2055DAE82B94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryAndFileLoopClassLibrary", "DirectoryAndFileLoopClassLibrary\DirectoryAndFileLoopClassLibrary.csproj", "{F616A0DA-A078-429F-99C9-A24B483533D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectoryAndFileLoopClassLibrary", "DirectoryAndFileLoopClassLibrary\DirectoryAndFileLoopClassLibrary.csproj", "{F616A0DA-A078-429F-99C9-A24B483533D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBaseProgrammingUSingEF", "DataBaseProgrammingUSingEF", "{31253062-16CE-4507-9E6F-44D815080232}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDemo1", "EFDemo1\EFDemo1.csproj", "{3FF4B30E-6D17-4847-82EF-29B68631E4A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +223,10 @@ Global
 		{F616A0DA-A078-429F-99C9-A24B483533D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F616A0DA-A078-429F-99C9-A24B483533D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F616A0DA-A078-429F-99C9-A24B483533D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FF4B30E-6D17-4847-82EF-29B68631E4A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF4B30E-6D17-4847-82EF-29B68631E4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF4B30E-6D17-4847-82EF-29B68631E4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF4B30E-6D17-4847-82EF-29B68631E4A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -247,6 +255,7 @@ Global
 		{4D47AC95-4C57-442D-A320-29871BE5C565} = {25C746C4-73A2-4F4F-BA47-353DCBA1516D}
 		{4F666CBB-4DBC-42A6-BB0D-2055DAE82B94} = {25C746C4-73A2-4F4F-BA47-353DCBA1516D}
 		{F616A0DA-A078-429F-99C9-A24B483533D7} = {25C746C4-73A2-4F4F-BA47-353DCBA1516D}
+		{3FF4B30E-6D17-4847-82EF-29B68631E4A5} = {31253062-16CE-4507-9E6F-44D815080232}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {997E3881-9872-487F-A8FB-43B4966CE7CD}
